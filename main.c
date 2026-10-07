@@ -1,4 +1,8 @@
 #include <stdio.h>
+int mul(int i, int j){
+    int k = i + j;
+    return k;
+}
 int add(int a, int b){
     int c = a + b;
     return c;
@@ -24,5 +28,9 @@ int main(){
         d=add(a,b);
         printf("%d + %d = %d\n",a,b,d);
         }
+    if(c=='*'){
+        d=mul(a,b);
+        printf("%d%c%d = %d\n",a,c,b,d);
+       }
     }
 }
