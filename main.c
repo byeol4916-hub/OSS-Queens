@@ -1,4 +1,8 @@
 #include <stdio.h>
+int add(int a, int b){
+    int c = a + b;
+    return c;
+}
 int main(){
     int a,b;
     char c;
@@ -11,10 +15,14 @@ int main(){
     if(c == '/'){
       d = a/b;
       printf("%d%c%d = %d\n",a,c,b,d);
+      }
     if(c == '-'){
       d = a-b;
       printf("%d%c%d = %d\n",a,c,b,d);
+        }
+    if(c == '+'){
+        d=add(a,b);
+        printf("%d + %d = %d\n",a,b,d);
+        }
     }
-  }
 }
-
