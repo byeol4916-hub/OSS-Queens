@@ -11,6 +11,9 @@ int main(){
     if(c == '/'){
       d = a/b;
       printf("%d%c%d = %d\n",a,c,b,d);
+    if(c == '-'){
+      d = a-b;
+      printf("%d%c%d = %d\n",a,c,b,d);
     }
   }
 }
