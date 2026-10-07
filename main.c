@@ -1,6 +1,6 @@
 #include <stdio.h>
 int mul(int i, int j){
-    int k = i + j;
+    int k = i * j;
     return k;
 }
 int add(int a, int b){
